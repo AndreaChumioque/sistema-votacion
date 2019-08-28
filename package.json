@@ -1,0 +1,22 @@
+{
+  "name": "sistema-votacion",
+  "version": "1.0.0",
+  "main": "js/app.js",
+  "repository": "https://github.com/AndreaChumioque/sistema-votacion.git",
+  "author": "AndreaChumioque <aichumioque@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development && webpack-dev-server --mode development --open",
+    "start": "webpack -p && node server.js"
+  }
+}
